@@ -1,0 +1,251 @@
+
+:root{
+    --color-uno:#006769;
+    --color-dos:#A02334;
+    --color-tres:#B6C7AA;
+    --color-cuatro:#F6FAB9;
+    --color-cinco:#E72929;
+    --color-seis:#F8EDE3;
+    --color-siete:#F5004F;
+    --color-fondo:#F3F7EC;
+
+    --fuente-montserrat:"Montserrat", sans-serif;
+    --fuente-krona:"krona", sans-serif;
+    --fuente-Roboto-mono : "Roboto Mono", monospace;
+    --fuente-Open-Sans : "Open Sans", sans-serif;
+
+}
+
+
+*{
+    padding: 0%;
+    margin: 1%;
+}
+
+body{
+    font-family: var(--fuente-montserrat);
+    background-color: var(--color-fondo);
+    color: var(--color-uno);
+    font-weight:100;
+    background-image: url(/imagenes/us100.jpeg); /* Ruta de tu imagen */
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-attachment: fixed; /* Fija la imagen en su lugar, incluso al hacer scroll */
+}
+
+header{
+    text-align: center;
+    background-image: url(/imagenes/tranding\ hede.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;    
+}
+
+.link{
+    color: #F9E400;
+    font-size: 20px;
+    padding: 40px;
+}
+
+main{
+    display: grid;
+}
+.usd100{
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido al inicio del contenedor */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    background-color: #EECEB9;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: #F6FB7A, solid;
+}
+
+h1{
+    text-align: center;
+    color: var(--color-cinco);
+    font-size: 30px;
+}
+
+h3{
+    text-align: center;
+    color: var(--color-cinco);
+    font-size: 18px;
+}
+
+.apple0{
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido al inicio del contenedor */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    background-color: #EECEB9;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: #F6FB7A, solid;
+}
+
+.apple1{
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido al inicio del contenedor */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    background-color: #EECEB9;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: #F6FB7A, solid;
+}
+
+.apple2{
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido al inicio del contenedor */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    background-color: #EECEB9;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: #F6FB7A, solid;
+}
+
+.apple3{
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido al inicio del contenedor */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    background-color: #EECEB9;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: #F6FB7A, solid;
+}
+.apple h3{
+    color: var(--color-siete);
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.m0{
+    background-color: #EECEB9;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: #F6FB7A, solid;
+    text-align:center;
+    overflow-wrap: break-word;
+}
+
+
+.m1{
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido al inicio del contenedor */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    background-color: #EECEB9;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: #F6FB7A, solid;
+}
+
+.m2{
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido al inicio del contenedor */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    background-color: #EECEB9;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: #F6FB7A, solid;
+}
+
+.m3{
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido al inicio del contenedor */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    background-color: #EECEB9;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: #F6FB7A, solid;
+}
+
+.am{
+    background-color: #EECEB9;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: #F6FB7A, solid;
+    text-align:center;
+    overflow-wrap: break-word;
+}
+
+.am1{
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido al inicio del contenedor */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    background-color: #EECEB9;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: #F6FB7A, solid; 
+}
+
+.am2{
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido al inicio del contenedor */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    background-color: #EECEB9;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: #F6FB7A, solid; 
+}
+
+.go{
+    background-color: #EECEB9;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: #F6FB7A, solid;
+    text-align:center;
+    overflow-wrap: break-word;
+}
+
+.go1{
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido al inicio del contenedor */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    background-color: #EECEB9;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: #F6FB7A, solid; 
+}
+
+.go2{
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido al inicio del contenedor */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    background-color: #EECEB9;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: #F6FB7A, solid; 
+}
+
+.face{
+    background-color: #EECEB9;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: #F6FB7A, solid;
+    text-align:center;
+    overflow-wrap: break-word;}
+
+    .face1{
+        display: flex;
+        align-items: flex-start; /* Alinea el contenido al inicio del contenedor */
+        justify-content: space-between; /* Distribuye el espacio entre los elementos */
+        background-color: #EECEB9;
+        margin-right: 200px;
+        margin-left: 200px;
+        border: #F6FB7A, solid; 
+    }
+
+    .face2{
+        display: flex;
+        align-items: flex-start; /* Alinea el contenido al inicio del contenedor */
+        justify-content: space-between; /* Distribuye el espacio entre los elementos */
+        background-color: #EECEB9;
+        margin-right: 200px;
+        margin-left: 200px;
+        border: #F6FB7A, solid; 
+    }

@@ -1,0 +1,51 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    background-color: #ffffff;
+    color: #FFCC29;
+    margin: 0;
+    background-image: url(/imagenes/oro3.jpg); /* Ruta de tu imagen */
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-attachment: fixed; /* Fija la imagen en su lugar, incluso al hacer scroll */
+}
+header {
+    background-color: #222222;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+header a {
+    color: #b8860b;
+    text-decoration: none;
+    margin: 0 20px;
+}
+h1 {
+    padding-top: 60px;
+    text-align: center;
+    color: #00FFDD;
+}
+
+h2 {
+    padding-top: 30px;
+    text-align: center;
+    color: #5EE6EB;
+}
+
+.gl{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Assistant", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+strong{
+    color: #54E346;
+}

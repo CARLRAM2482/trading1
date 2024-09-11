@@ -1,0 +1,150 @@
+
+:root{
+    --color-primario:#071952;
+    --color-segundario:#A02334;
+    --color-terciario:#EECEB9;
+    --color-cuarto:#AF47D2;
+    --color-cinco:#EBD3F8;
+    --color-fondo:#F5F7F8;
+
+    --fuente-montserrat:"Montserrat", sans-serif;
+    --fuente-krona:"krona", sans-serif;
+    --fuente-Roboto-mono : "Roboto Mono", monospace;
+
+}
+
+
+*{
+    padding: 0%;
+    margin: 1%;
+}
+
+body{
+    font-family: var(--fuente-montserrat);
+    background-color: var(--color-fondo);
+    color: var(--color-primario);
+    font-weight:100;
+}
+
+header{
+    text-align:center;
+    background-image: url(/imagenes/tranding\ hede.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;    
+}
+
+.trading{
+    color:var(--color-uno);
+    background-color: var(--color-cinco);
+    font-family: var(--fuente-Open-Sans);
+    padding: 20px;
+    border: #3795BD solid;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1{
+    color: var(--color-segundario);
+    font-family: var(--fuente-krona);
+    background-color: var(--color-terciario);
+    text-align: center;
+}
+
+
+.navegacion_link{
+    color: #F9E400;
+    font-size: 20px;
+    padding: 40px;
+}
+
+h2{
+    text-align: center;
+    color: var(--color-segundario);
+    font-family: var(--fuente-krona);
+    text-align: center;
+}
+p{
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing:normal;
+}
+ol{
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.contenedor-formulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el formulario en la página */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(14, 17, 172, 0.1); /* Sombra para darle un toque de estilo */
+}
+
+h3{
+    color: var(--color-cuarto);
+    font-size: 15px;
+    font-family: var(--fuente-krona);
+}
+
+.formulario{
+    background-color: var(--color-terciario);
+    border: #3795BD solid;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    flex: 0 0 70%; /* El formulario ocupa el 60% del ancho */
+}
+
+
+
+.imagen {
+    flex: 0 0 30%; /* La imagen ocupa el 35% del ancho */
+}
+
+.imagen img {
+    max-width: 70%; /* Asegura que la imagen no se salga de su contenedor */
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+}
+
+@media (max-width: 768px) {
+    .contenedor-formulario {
+        flex-direction: column; /* Cambia a una columna en pantallas más pequeñas */
+    }
+    
+    .formulario form, .imagen {
+        flex: 1 0 100%; /* Ocupan el 100% del ancho */
+        margin-right: 0;
+    }
+    
+    .imagen {
+        margin-top: 20px; /* Espacio entre el formulario y la imagen en columnas */
+    }
+}
+
+/* Estilo para el pie de página */
+footer {
+    margin-top: 20px; /* Añade un margen superior para separarlo del contenido */
+    font-size: 14px; /* Ajusta el tamaño del texto */
+    color: #555; /* Cambia el color del texto */
+    padding: 10px 0; /* Añade un espacio en la parte superior e inferior */
+    background-color: #dde4e7; /* Añade un color de fondo */
+    margin-left: 50px;
+    text-align: center;
+    margin-right: 50px;
+    
+}
+footer p{
+    text-align: center;
+    }

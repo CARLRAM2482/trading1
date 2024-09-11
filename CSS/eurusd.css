@@ -1,0 +1,101 @@
+:root{
+    --color-primario:#071952;
+    --color-segundario:#A02334;
+    --color-terciario:#EECEB9;
+    --color-cuarto:#AF47D2;
+    --color-cinco:#EBD3F8;
+    --color-fondo:#F5F7F8;
+
+    --fuente-montserrat:"Montserrat", sans-serif;
+    --fuente-krona:"krona", sans-serif;
+    --fuente-Roboto-mono : "Roboto Mono", monospace;
+
+}
+
+
+*{
+    padding: 0%;
+    margin: 1%;
+}
+
+body{
+    font-family: var(--fuente-montserrat);
+    background-color: var(--color-fondo);
+    color: var(--color-primario);
+    font-weight:100;
+}
+
+header{
+    text-align: center;
+    background-image: url(/imagenes/tranding\ hede.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;    
+}
+.navegacion_link{
+    color: #F9E400;
+    font-size: 20px;
+    padding: 80px;
+}
+h1{
+    color: var(--color-segundario);
+    background-color: #D1E9F6;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+section  {
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido al inicio del contenedor */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    background-color: var(--color-terciario);
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Estilo para el div del texto */
+.euro {
+    width: 100%; /* Ajusta el ancho del texto */
+    box-shadow: 0 0 10px rgba(14, 17, 172, 0.1); /* Sombra para darle un toque de estilo */
+    margin-top: 50px;
+}
+
+/* Estilo para el div de la imagen */
+.imagen {
+    width: 115%; /* Ajusta el ancho del contenedor de la imagen */
+    display: flex;
+    justify-content: flex-end; /* Alinea la imagen a la derecha dentro del div */
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+/* Estilo para la imagen */
+.imagen img {
+    max-width: 100%; /* Asegura que la imagen no sobrepase su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    box-shadow: 0 0 10px rgba(14, 17, 172, 0.1); /* Sombra para darle un toque de estilo */
+}
+
+/* Estilo para el pie de página */
+footer {
+    margin-top: 20px; /* Añade un margen superior para separarlo del contenido */
+    font-size: 14px; /* Ajusta el tamaño del texto */
+    color: #555; /* Cambia el color del texto */
+    padding: 10px 0; /* Añade un espacio en la parte superior e inferior */
+    background-color: #dde4e7; /* Añade un color de fondo */
+    margin-left: 50px;
+    text-align: center;
+    margin-right: 50px;
+    
+}
+footer p{
+    text-align: center;
+    }
